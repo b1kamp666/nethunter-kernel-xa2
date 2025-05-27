@@ -11,7 +11,7 @@ jobs:
     - name: Checkout your fork of kernel source
       uses: actions/checkout@v3
       with:
-        repository: YOUR_USERNAME/android_kernel_sony_sdm660
+        repository: https://github.com/LineageOS/android_kernel_sony_sdm660
         ref: lineage-18.1
         path: kernel
 
